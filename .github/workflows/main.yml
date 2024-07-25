@@ -25,10 +25,12 @@ jobs:
       - name: Build project
         run: ./build solution
 
+      - name: compress
+        run: Compress-Archive . release.zip
 
       - name: upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: vrscore
-          path:  D:/a/vrscore/vrscore/
+          path:  D:/a/vrscore/vrscore/reléase.zip
 
