@@ -24,3 +24,11 @@ jobs:
 
       - name: Build project
         run: ./build solution
+
+
+      - name: upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: vrscore
+          path:  D:/a/vrscore/
+
