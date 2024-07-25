@@ -23,7 +23,7 @@ jobs:
           cache: true
 
       - name: Restore dependencies
-        run: dotnet restore VirtualRadar.sln
+        run: dotnet restore --packages packs VirtualRadar.sln
 
       - name: Build project
         run: ./build solution
