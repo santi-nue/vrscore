@@ -1,3 +1,6 @@
+win 64 release:
+
+https://nightly.link/santi-nue/vrscore/workflows/main/master/vrscore.zip
 
 # Virtual Radar Server
 
